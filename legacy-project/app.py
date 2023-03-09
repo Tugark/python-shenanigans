@@ -1,7 +1,7 @@
 import requests
 import pandas
 result = requests.get('https://api.chucknorris.io/jokes/random')
-result.text
+print(result.text)
 
 df = pandas.DataFrame()
-df
+print(df)
