@@ -9,9 +9,9 @@ It is based on using pyenv and pipenv for a smooth developer experience. While y
 ## Basic Setup
 
 1. Install WSL
-2. Install [pyenv](https://github.com/pyenv/pyenv)
+2. Install [pyenv](https://github.com/pyenv/pyenv); I prefer the GIT checkout way.
     1. Make sure to follow *all* steps, especially the dependency part (!)
-    2. Run `pyenv --global 3.11.2` to install your first python version and set it as a default
+    2. Run `pyenv install 3.11.2` and `pyenv global 3.11.2` to install your first python version and set it as a default
     3. Run `python --version` to check whether it all worked
 3. Install [pipenv](https://pipenv.pypa.io/en/latest/install/#installing-pipenv) by running `pip install pipenv` - this will install pipenv as a global extension attached to your previously defined python version.
 
